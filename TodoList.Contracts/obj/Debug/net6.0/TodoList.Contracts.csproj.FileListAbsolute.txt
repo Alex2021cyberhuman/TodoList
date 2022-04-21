@@ -1,0 +1,12 @@
+/home/alex/Source/TodoList/TodoList.Contracts/bin/Debug/net6.0/TodoList.Contracts.deps.json
+/home/alex/Source/TodoList/TodoList.Contracts/bin/Debug/net6.0/TodoList.Contracts.dll
+/home/alex/Source/TodoList/TodoList.Contracts/bin/Debug/net6.0/ref/TodoList.Contracts.dll
+/home/alex/Source/TodoList/TodoList.Contracts/bin/Debug/net6.0/TodoList.Contracts.pdb
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/TodoList.Contracts.csproj.AssemblyReference.cache
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/TodoList.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/TodoList.Contracts.AssemblyInfoInputs.cache
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/TodoList.Contracts.AssemblyInfo.cs
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/TodoList.Contracts.csproj.CoreCompileInputs.cache
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/TodoList.Contracts.dll
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/ref/TodoList.Contracts.dll
+/home/alex/Source/TodoList/TodoList.Contracts/obj/Debug/net6.0/TodoList.Contracts.pdb
