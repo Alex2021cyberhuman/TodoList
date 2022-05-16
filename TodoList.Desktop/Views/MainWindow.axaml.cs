@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using TodoList.Desktop.ViewModels;
 
 namespace TodoList.Desktop.Views
 {
@@ -7,6 +8,15 @@ namespace TodoList.Desktop.Views
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void SelectingItemsControl_OnSelectionChanged(object? sender, SelectionChangedEventArgs e)
+        {
+            if (DataContext is not null)
+            {
+                var viewModel = (MainWindowViewModel)DataContext;
+                viewModel.OnFilterBySummary();
+            }
         }
     }
 }

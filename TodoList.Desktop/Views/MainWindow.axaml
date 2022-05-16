@@ -14,7 +14,14 @@
 
     <StackPanel>
         <ListBox Items="{Binding WeatherForecasts}" />
-        <Button Command="{Binding OnClickCommand}" CommandParameter="{Binding OnClickCommand}">MyButton</Button>
+        <Button Command="{Binding OnRefresh}">Refresh</Button>
+        <ComboBox Items="{Binding Summaries}" SelectedItem="{Binding SelectedSummary}" SelectionChanged="SelectingItemsControl_OnSelectionChanged"  SelectedIndex="0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" />
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
     </StackPanel>
 
 </Window>
